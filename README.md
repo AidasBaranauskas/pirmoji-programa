@@ -13,4 +13,8 @@ Ką programa atlieka?
   Vardas įrėmintas centre tarp " * " simbolių.
 
 Visi programos releasai:
+[0.1 versija](https://github.com/AidasBaranauskas/pirmoji-programa/releases/tag/0.1)
+[0.2 versija](https://github.com/AidasBaranauskas/pirmoji-programa/releases/tag/0.2)
 [0.3 versija](https://github.com/AidasBaranauskas/pirmoji-programa/releases/tag/0.3)
+
+Instrukcijos: įveskite lietuviškai parašytą vardą ir rėmelio dydį (skaičių).
