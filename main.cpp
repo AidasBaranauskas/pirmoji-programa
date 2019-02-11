@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    string vardas, pasisveik, tarpas, krastas;
+    string vardas, zodis[3];
     cout<<"iveskite megstamiausio mokytojo varda"<<endl;
     cin>>vardas;
     cout<<"iveskite remelio dydi"<<endl;
@@ -20,28 +20,28 @@ int main()
     if(zy!=y)cout<<"duotas dydis netinkamas ir buvo pakeistas: "<<y<<endl;
 
     if(vardas[vardas.size()-1]=='s')
-        pasisveik="* Sveikas, "+vardas+"! *";
+        zodis[0]="* Sveikas, "+vardas+"! *";
     else
-        pasisveik="* Sveika, "+vardas+"! *";
-    x=pasisveik.size();
-    tarpas="*";
+        zodis[0]="* Sveika, "+vardas+"! *";
+    x=zodis[0].size();
+    zodis[1]="*";
     for(int i=1; i<x-1; i++)
     {
-        tarpas+=" ";
+        zodis[1]+=" ";
     }
-    tarpas+="*";
+    zodis[1]+="*";
 
     for(int i=0; i<x; i++)
-        krastas+="*";
+        zodis[2]+="*";
 
-    cout<<krastas<<endl;
+    cout<<zodis[2]<<endl;
     for(int i=1; i<y-1; i++)
     {
         if(i==y/2)
-            cout<<pasisveik<<endl;
+            cout<<zodis[0]<<endl;
         else
-            cout<<tarpas<<endl;
+            cout<<zodis[1]<<endl;
     }
-    cout<<krastas<<endl;
+    cout<<zodis[2]<<endl;
     return 0;
 }
