@@ -13,4 +13,4 @@ Ką programa atlieka?
   Vardas įrėmintas centre tarp " * " simbolių.
 
 Visi programos releasai:
-  
+[0.3 versija](https://github.com/AidasBaranauskas/pirmoji-programa/releases/tag/0.3)
